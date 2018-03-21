@@ -1,1 +1,1 @@
-worker: node bot.js
+worker: npm start -- --config ./config.json
