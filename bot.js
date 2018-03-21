@@ -22,7 +22,7 @@ client.on('message', message => {
 
     if (!message.content.startswith(PREFIX)) return;
 
-var args = messahe.content.substring(PREFIX.LENGTH).split(" ");
+var args = message.content.substring(PREFIX.LENGTH).split(" ");
  
     switch (args[0].toLowerCase()) {
         case "info":
