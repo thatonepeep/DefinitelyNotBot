@@ -1,6 +1,10 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+
+
+.listen(process.env.PORT || 5000)
+
 client.on('ready', () => {
     console.log('I am ready!');
 });
