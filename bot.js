@@ -25,7 +25,7 @@ client.on('message', message => {
 var args = messahe.content.substring(PREFIX.LENGTH).split(" ");
  
     switch (args[0].toLowerCase()) {
-        case "Info":
+        case "info":
       message.channel.sendMessage("Property of MistyPeak.Bot made by ThatOnePeep#6581,it was designed to help members of the MistyPeak's community to know their way around the commands and the server/group/website. Type /help for detailed help with such things as commands and general questions."))
       break;
 });
