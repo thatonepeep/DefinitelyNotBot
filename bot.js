@@ -28,7 +28,7 @@ var args = messahe.content.substring(PREFIX.LENGTH).split(" ");
         case "info":
       message.channel.sendMessage("Property of MistyPeak.Bot made by ThatOnePeep#6581,it was designed to help members of the MistyPeak's community to know their way around the commands and the server/group/website. Type /help for detailed help with such things as commands and general questions.")
       break;
-});
+};
 
 // THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN)})})
